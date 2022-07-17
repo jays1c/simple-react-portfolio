@@ -9,9 +9,9 @@ const about = {
   description: 'An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Jay has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project. Right now he is looking for an entry level position with an exciting company that wants to attract talented people.',
   Resume: 'https://example.com',
   social: {
-    facebook: 'https://www.facebook.com/',
-    linkedin: 'https://www.linkedin.com/in/armandoantonis/',
     github: 'https://github.com/jays1c',
+    facebook: 'https://www.facebook.com/armandoantonis/',
+    linkedin: 'https://www.linkedin.com/in/armandoantonis/',
   },
 }
 

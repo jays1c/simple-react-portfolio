@@ -1,7 +1,9 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import {Facebook} from "@material-ui/icons";
 import { about } from '../../portfolio'
 import './About.css'
+
 
 
 const About = () => {
@@ -39,15 +41,15 @@ const About = () => {
               </a>
             )}
 
-            {social.facebook && (
+              {social.facebook && (
                   <a
-                      href={social.facebook}
+                      href={social.github}
                       aria-label='facebook'
                       className='link link--icon'
                   >
-                      <GitHubIcon />
+                      <Facebook />
                   </a>
-            )}
+              )}
 
             {social.linkedin && (
               <a
