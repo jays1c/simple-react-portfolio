@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: justify;
 }
 
 .about__name {
@@ -27,6 +28,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {

@@ -3,8 +3,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
+
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, Resume, social } = about
 
   return (
     <div className='about center'>
@@ -18,8 +19,8 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
+        {Resume && (
+          <a href={Resume}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
@@ -36,6 +37,16 @@ const About = () => {
               >
                 <GitHubIcon />
               </a>
+            )}
+
+            {social.facebook && (
+                  <a
+                      href={social.facebook}
+                      aria-label='facebook'
+                      className='link link--icon'
+                  >
+                      <GitHubIcon />
+                  </a>
             )}
 
             {social.linkedin && (

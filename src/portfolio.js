@@ -1,18 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  logo: '',
-  title: 'JS.',
+  logo: 'https://github.com/jays1c/simple-react-portfolio',
+  title: 'AA.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Jay',
   role: 'Front End Engineer',
-  description: 'An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Armando has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project. Right now he is looking for an entry level position with an exciting company that wants to attract talented people.',
-  resume: 'https://example.com',
+  description: 'An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Jay has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project. Right now he is looking for an entry level position with an exciting company that wants to attract talented people.',
+  Resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    facebook: 'https://www.facebook.com/',
+    linkedin: 'https://www.linkedin.com/in/armandoantonis/',
+    github: 'https://github.com/jays1c',
   },
 }
 
