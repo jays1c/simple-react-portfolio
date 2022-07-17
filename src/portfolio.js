@@ -1,44 +1,36 @@
 const header = {
   logo: 'https://github.com/jays1c/simple-react-portfolio',
-  title: 'AA.',
+  imgLogo: 'Hello!',
 }
 
 const about = {
   name: 'Jay',
-  role: 'Front End Engineer',
+  role: 'Front-End Developer',
   description: 'An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Jay has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project. Right now he is looking for an entry level position with an exciting company that wants to attract talented people.',
-  Resume: 'https://example.com',
+  Resume: 'Resume.pdf',
   social: {
     github: 'https://github.com/jays1c',
-    facebook: 'https://www.facebook.com/armandoantonis/',
+    facebook: 'https://www.facebook.com/antonisjay',
+    instragram: 'https://www.instagram.com/champagnexjay/',
     linkedin: 'https://www.linkedin.com/in/armandoantonis/',
   },
 }
 
 const projects = [
   {
-    name: 'MalaPsychKit',
-    description:
-      'Online Counseling System',
-    stack: ['PHP', 'CSS', 'HTML', 'JavaScript', 'AJAX', 'JQUERY'],
+    description: 'Tech Stack',
     sourceCode: 'https://example.com',
     livePreview: 'https://example.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    description: 'Tech Stack',
     sourceCode: 'https://example.com',
     livePreview: 'https://example.com',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    description: 'Tech Stack',
+    sourceCode: 'https://example.com',
+    livePreview: 'https://example.com',
   },
 ]
 
@@ -56,6 +48,7 @@ const skills = [
 
 const contact = {
   email: 'antonisjay@gmail.com',
+
 }
 
 export { header, about, projects, skills, contact }

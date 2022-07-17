@@ -2,21 +2,24 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
+import {BsStack, DiCss3, DiHtml5, DiJavascript, DiJqueryLogo, DiPhp} from "react-icons/all";
+import malapsychkitLogo from "../../Resources/malapsychkitLogo.png";
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
+    <img src={malapsychkitLogo} alt="" className="proj1"/>
+
+    <p className='project__description '>{project.description} <BsStack/></p>
       <ul className='project__stack'>
-        {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
-            {item}
+              <DiHtml5/>
+              <DiCss3/>
+              <DiJavascript/>
+              <DiJqueryLogo/>
+              <DiPhp/>
           </li>
-        ))}
       </ul>
-    )}
 
     {project.sourceCode && (
       <a

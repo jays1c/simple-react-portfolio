@@ -1,19 +1,23 @@
 import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
+import '../../App.css'
+import myLogo from '../../Resources/Triple IT.png';
+
 
 const Header = () => {
-  const { logo, title } = header
+  const { logo, imgLogo } = header
 
   return (
     <header className='header center'>
       <h3>
         {logo ? (
-          <a href={logo} className='link'>
-            {title}
-          </a>
+            <a href={logo}>
+                <img src={myLogo} className="btn--icon my--logo" alt="" title="Link to GitHub Repo"/>
+            </a>
+
         ) : (
-          title
+            imgLogo
         )}
       </h3>
       <Navbar />

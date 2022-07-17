@@ -18,16 +18,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
+  margin-right: 2em;
 }
 
 .project__stack-item {
   margin: 0.5em;
   font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  font-size: 1.8rem;
 }
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+.proj1{
+  height: 15rem;
+  width: 15rem;
 }

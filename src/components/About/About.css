@@ -9,7 +9,7 @@
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 0.3em;
 }
 
 .about__desc {
@@ -28,7 +28,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 @media (max-width: 600px) {

@@ -128,6 +128,16 @@ main {
   border: 0;
 }
 
+.my--logo{
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.typeAnimation{
+  margin-top: 20px;
+}
+
 .btn--plain:hover {
   transform: translateY(-4px);
 }
@@ -135,6 +145,7 @@ main {
 .btn--icon {
   padding: 0;
 }
+
 
 .btn--icon:hover,
 .btn--icon:focus {
@@ -144,6 +155,8 @@ main {
 .btn--icon:active {
   transform: translateY(-5px);
 }
+
+
 
 @media (max-width: 600px) {
   .section {
