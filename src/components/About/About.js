@@ -16,15 +16,18 @@ const About = () => {
       {name && (
           <h1>
               <Typewriter words={[' Hi, I am Armando!']}
-                          nextWordDelay="100000000000000000000"
-                          typingSpeed="110"
-                          erasingSpeed="120"
+                          nextWordDelay={1000000000}
+                          typingSpeed={120}
+                          erasingSpeed={120}
               />
 
           </h1>
       )}
 
-      {role && <h2 className='about__role about__name'>{role}</h2>}
+      {role && <h2 className='about__role about__name'>{role}
+          <span className="laptop" role="img" aria-labelledby="laptop"> 💻</span>
+      </h2>}
+
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

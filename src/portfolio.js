@@ -1,12 +1,22 @@
+import JS from './sIcons/javascript.svg'
+import react from './sIcons/react.svg'
+import jquery from './sIcons/jquery.svg'
+import css from './sIcons/css3.svg'
+import boot from './sIcons/bootstrap.svg'
+import php from './sIcons/php.svg'
+import yarn from './sIcons/yarn.svg'
+import git from './sIcons/github.svg'
+
+
+
 const header = {
   logo: 'https://github.com/jays1c/simple-react-portfolio',
-  imgLogo: 'Hello!',
 }
 
 const about = {
   name: 'Jay',
   role: 'Front-End Developer',
-  description: 'An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Jay has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project. Right now he is looking for an entry level position with an exciting company that wants to attract talented people.',
+  description: 'I am passionate Front-End Web Developer having an experience of web applications with Bootstrap, PHP, JavaScript, ReactJS, and Node.js',
   Resume: 'Resume.pdf',
   social: {
     github: 'https://github.com/jays1c',
@@ -17,33 +27,29 @@ const about = {
 }
 
 const projects = [
+
   {
-    description: 'Tech Stack',
-    sourceCode: 'https://example.com',
-    livePreview: 'https://example.com',
+    name: 'Google IT Support',
+    skills: ['Troubleshooting', 'Computer Networking', 'IT Infrastructure Services'],
+    livePreview: "https://www.credly.com/badges/b58eef4c-1a59-4d51-ac23-f4ebc60227f1/linked_in",
   },
   {
-    description: 'Tech Stack',
-    sourceCode: 'https://example.com',
-    livePreview: 'https://example.com',
+    name: 'Google IT Automation',
+    skills: ['Python Programming', 'Automation', 'Cloud Networking'],
+    livePreview: "https://www.credly.com/badges/34753f93-35fe-4b1a-82b3-7a38d1d0412b/linked_in",
   },
   {
-    description: 'Tech Stack',
-    sourceCode: 'https://example.com',
-    livePreview: 'https://example.com',
+    name: 'AWS Fundamentals',
+    skills: ['Cloud Networking', 'AWS Cloud', 'Cloud Storage'],
+    livePreview: 'https://www.coursera.org/account/accomplishments/specialization/certificate/DHEGTZ77MNCJ',
   },
 ]
 
+// const certs = [ [itcert], [itautomation]
+// ]
+
 const skills = [
-  'HTML',
-  'CSS',
-  'jQuery',
-  'PHP',
-  'AJAX',
-  'JavaScript',
-  'React',
-  'Material UI',
-  'Git',
+  [JS],[react],[jquery],[css],[boot],[php],[yarn],[git]
 ]
 
 const contact = {
@@ -51,4 +57,4 @@ const contact = {
 
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, }
