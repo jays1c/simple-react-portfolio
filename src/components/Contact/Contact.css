@@ -1,3 +1,71 @@
+#contact::before{
+  display:block;
+  content: '';
+  height: 80px;
+}
 .contact {
   flex-direction: column;
+}
+.contact--container{
+  padding: 3em;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+  display: inline-block;
+}
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 16px;
+  width: 100%;
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+label {
+  margin-top: 1rem;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgb(41, 120, 181);
+  color: white;
+  border: none;
+}
+input:focus{
+  border-color: rgb(41, 120, 181) ;
+}
+textarea:focus{
+  border-color: rgb(41, 120, 181) ;
+}
+.input--mt{
+  margin-bottom: 1em
+}
+
+.contact--info{
+  margin-left: 50px;
+  font-size: 1em;
+}
+
+.contact--span{
+  margin-bottom: 2.2em;
+}
+.mail-btn:hover{
+  color: var(--clr-primary);
 }

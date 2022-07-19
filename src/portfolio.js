@@ -10,7 +10,7 @@ import git from './sIcons/github.svg'
 
 
 const header = {
-  logo: 'https://github.com/jays1c/simple-react-portfolio',
+  logo: 'http://localhost:3000/jays1c/react-portfolio',
 }
 
 const about = {
@@ -53,8 +53,7 @@ const skills = [
 ]
 
 const contact = {
-  email: 'antonisjay@gmail.com',
-
+  email: 'armando.antonis@cvsu.edu.ph',
 }
 
 export { header, about, projects, skills, contact, }

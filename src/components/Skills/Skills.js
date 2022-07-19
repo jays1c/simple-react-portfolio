@@ -15,7 +15,7 @@ const Skills = () => {
             <h2 className='section__title'>Skills</h2>
         </Slide>
 
-        <Bounce bottom duration={1500}>
+        <Bounce bottom duration={1800}>
               <ul className='skills__list'>
                 {skills.map((skill) => (
                   <img key={uniqid()} className='skills__list-item btn skills--icons'

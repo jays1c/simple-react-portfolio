@@ -12,7 +12,7 @@ const About = () => {
   const { name, role, description, Resume, social } = about
 
   return (
-    <div className='about center'>
+          <div className='about center'>
       {name && (
           <h1>
               <Typewriter words={[' Hi, I am Armando!']}
@@ -20,10 +20,8 @@ const About = () => {
                           typingSpeed={120}
                           erasingSpeed={120}
               />
-
           </h1>
       )}
-
       {role && <h2 className='about__role about__name'>{role}
           <span className="laptop" role="img" aria-labelledby="laptop"> 💻</span>
       </h2>}
@@ -85,6 +83,7 @@ const About = () => {
         )}
       </div>
     </div>
+
   )
 }
 

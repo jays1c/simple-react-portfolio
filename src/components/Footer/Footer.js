@@ -1,6 +1,7 @@
 import './Footer.css'
 
 const Footer = () => (
+
   <footer className='footer'>
     <a
       href='https://github.com/jays1c/simple-react-portfolio'
@@ -9,6 +10,7 @@ const Footer = () => (
       Copyright Armando J. Antonis Jr.
     </a>
   </footer>
+
 )
 
 export default Footer
